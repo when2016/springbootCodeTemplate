@@ -56,4 +56,6 @@ fabric.properties
 .idea
 *.iml
 *.ipr
+logs/
+target/
 

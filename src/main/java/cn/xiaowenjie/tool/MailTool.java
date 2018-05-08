@@ -1,19 +1,15 @@
 package cn.xiaowenjie.tool;
 
-import javax.mail.MessagingException;
+import cn.xiaowenjie.jms.JMSTool;
+import cn.xiaowenjie.jms.JMSType;
 import javax.mail.internet.MimeMessage;
-
-import org.junit.Test;
+import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
-
-import cn.xiaowenjie.jms.JMSTool;
-import cn.xiaowenjie.jms.JMSType;
-import lombok.SneakyThrows;
 
 @Component
 public class MailTool {
